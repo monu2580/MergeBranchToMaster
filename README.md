@@ -20,6 +20,7 @@
 	
 
 Example:
+		
 		create repo on github
 		git clone https://github.com/monu2580/MergeBranchToMaster.git
 		cd MergeBranchToMaster
@@ -29,6 +30,7 @@ Example:
 		
 		mate README.md
 			//Do some modifiacation and save
+		git add README.md
 		git commit -m "Commit by branch b1"
 		
 		//to merge this branch update to mster
