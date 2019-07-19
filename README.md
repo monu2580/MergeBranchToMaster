@@ -1,22 +1,27 @@
 # MergeBranchToMaster
 
 1. Create Branch 
-	git branch <branch_name>
+
+		git branch <branch_name>
 	
 2. Switch to other branch/master
-	git checkout <banch_name/master>
 	
-		OR
-		
+		git checkout <banch_name/master>
+	
+	OR
+	
 	//Create new branch and switch to that branch in one command
-	git checkout -b <branch_name>
+	
+		git checkout -b <branch_name>
 	
 3. Merge branch to master
-	git checkout master // switch to master
-	git merge <branch_name> //merge file from brach to master
+	
+		git checkout master // switch to master
+		git merge <branch_name> //merge file from brach to master
 	
 4. rebase/update of Master to to branch
-	git rebase master  //take update of master repo to branch
+	
+		git rebase master  //take update of master repo to branch
 	
 
 Example:
