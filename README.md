@@ -23,7 +23,9 @@
 	
 		git rebase master  //take update of master repo to branch
 	
-
+5. delete branch
+	
+		git branch -d b1
 Example:
 		
 		create repo on github
