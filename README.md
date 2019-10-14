@@ -47,6 +47,7 @@ Example:
 		//to merge this branch update to mster
 		git checkout master
 		git merge b1
+		git push
 		
 		mate/gedit README.md
 			//do some modifiaction
@@ -54,7 +55,9 @@ Example:
 		//to get this master modification update to branch b1
 		git checkout b1
 		git merge master
+		git push
 		
 		//to reWrit commit and push history of other_branch(master) to local_branch(b1)
 		git rebase master
+		git push
 		
